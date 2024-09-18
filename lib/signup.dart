@@ -18,7 +18,7 @@ class SignupState extends State<Signup> {
         title: const Center(
           child: Text("Sign Up"),
         ),
-        backgroundColor: Color.fromRGBO(28, 158, 234, 0.927),
+        backgroundColor: const Color.fromRGBO(28, 158, 234, 0.927),
       ),
       body: Form(
         key: _formkey,
